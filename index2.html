@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome cden -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- DaisyUI cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>shop</title>
+  </head>
+  <body class="bg-[#FFFFFF]">
+    <header>
+      <nav>
+        <!--start navber-1 -->
+        <div
+          class="max-w-screen-2xl mx-auto flex justify-between bg-[#EEEEEE] p-2 px-5"
+        >
+          <div class="flex gap-8">
+            <p>Help desk</p>
+            <p>FAQs</p>
+          </div>
+          <div class="flex gap-8">
+            <p>+234 000 0000 000</p>
+            <p><i class="fa-solid fa-globe"></i> ENG</p>
+          </div>
+        </div>
+        <!--start navber-2 -->
+        <div
+          class="max-w-screen-2xl mx-auto flex justify-between px-5 bg-[#FFFFFF] border"
+        >
+          <h1>
+            <img src="assets/logo.png" alt="" />
+          </h1>
+          <div class="flex gap-36 p-3">
+            <ul class="flex space-x-8">
+              <li
+                class="text-[1rem] font-medium text-[#000000] hover:text-[#ffc421]"
+              >
+                <a href="">Home</a>
+              </li>
+              <li
+                class="text-[1rem] font-medium text-[#000000] hover:text-[#ffc421]"
+              >
+                <a href="">Shop</a>
+              </li>
+              <li
+                class="text-[1rem] font-medium text-[#000000] hover:text-[#ffc421]"
+              >
+                <a href="">Deals</a>
+              </li>
+              <li
+                class="text-[1rem] font-medium text-[#000000] hover:text-[#ffc421]"
+              >
+                <a href="">Blog</a>
+              </li>
+            </ul>
+            <div class="flex gap-4">
+              <p class="text-[1rem] font-medium text-[#000000]">
+                Cart <i class="fa-solid fa-cart-shopping text-[1rem]"></i>
+              </p>
+
+              <p class="text-[1rem] font-medium text-[#000000]">
+                Login <i class="fa-solid fa-circle-user"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <div class="max-w-screen-2xl mx-auto p-4">
+        <h4>Home <i class="fa-solid fa-greater-than"></i>Shop</h4>
+        <div class="flex justify-between">
+          <p class="font-medium text-[1.9rem] text-[#000000]">
+            Explore our Shop
+          </p>
+          <div>
+            <input
+              class="p-2 px-60 border"
+              type="search"
+              name=""
+              id=""
+              placeholder="Find what you need......."
+              required
+            />
+            <button
+              class="px-4 py-2 text-[1.2rem] bg-[#1C4606] text-[#FFFFFF] rounded-lg"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="max-w-screen-2xl mx-auto grid grid-cols-3">
+        <div class="w-[20rem]">
+          <div class="shadow-xl p-6 rounded-md">
+            <h2 class="font-medium mb-1 text-[1.4rem]">Filters</h2>
+            <p class="text-[#555555]">vegetable</p>
+          </div>
+          <div class="shadow-xl p-3 rounded-md">
+            <div class="flex justify-between items-center mt-3">
+              <h2 class="font-medium text-[1.3rem]">Categories</h2>
+              <p><i class="fa-solid fa-angle-down text-[1.5rem]"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Fresh Products</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Vegetables</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Dairy & Eggs</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Meat & Poultry</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Pantry Staples</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Beverages</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">
+                Snacks & Confectionery
+              </h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Frozen Foods</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Bakery & Bread</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Household Essentials</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">
+                Personal Care & Health
+              </h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+          </div>
+
+          <div class="p-3 shadow-xl mt-4 rounded-md">
+            <div class="flex justify-between items-center">
+              <h2 class="font-medium text-[1.3rem]">Availability</h2>
+              <p><i class="fa-solid fa-angle-down text-[1.5rem]"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">In-stock</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Out-of-stock</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+          </div>
+
+          <div class="p-3 shadow-xl mt-4 rounded-md">
+            <div class="flex justify-between items-center">
+              <h2 class="font-medium text-[1.3rem]">Prices</h2>
+              <p><i class="fa-solid fa-angle-down text-[1.5rem]"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Sales</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Discounted</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+          </div>
+
+          <div class="p-3 shadow-xl mt-4 rounded-md">
+            <div class="flex justify-between items-center">
+              <h2 class="font-medium text-[1.3rem]">Diet Type</h2>
+              <p><i class="fa-solid fa-angle-down text-[1.5rem]"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Vegan</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <h2 class="text-[1.2rem] text-[#000000]">Non-vegan</h2>
+              <p><i class="fa-regular fa-circle"></i></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-26">
+          <h1 class="text-[#000000] font-bold text-[1.4rem]">Products List</h1>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-34">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+            <div class="shadow-2xl border">
+              <div><img class="w-96" src="assets/pepper.png" alt="" /></div>
+              <div class="flex flex-col items-center justify-center mb-2">
+                <p class="text-xs text-[#555555] mb-4">
+                  <span>Item: </span>vegetable
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-1">
+                  Price:200
+                </p>
+                <p class="text-[1rem] font-semibold text-[#263238] mb-3">
+                  Pepper 500g
+                </p>
+                <button
+                  class="px-7 py-1 rounded-md hover:bg-slate-200 bg-[#F6E2AB]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+                <p class="mt-2 text-[#555555]">Stock Out</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 max-w-screen-2xl mx-auto bg-[#F6E2AB] mt-4"
+    >
+      <div>
+        <h6 class="text-[#000000] font-bold text-[1.5rem] mb-2">Services</h6>
+        <a class="text-[#000000] font-semibold text-[1rem]">Branding</a>
+        <a class="text-[#000000] font-semibold text-[1rem]">Design</a>
+        <a class="text-[#000000] font-semibold text-[1rem]">Design</a>
+        <a class="text-[#000000] font-semibold text-[1rem]">Marketing</a>
+        <a class="text-[#000000] font-semibold text-[1rem]">Advertisement</a>
+      </div>
+      <div>
+        <h6 class="text-[#000000] font-bold text-[1.5rem] mb-2">Company</h6>
+        <a class="text-[#000000] font-semibold text-[1rem]">About us</a>
+        <a class="text-[#000000] font-semibold text-[1rem]">Contact</a>
+        <a class="text-[#000000] font-semibold text-[1rem]">Jobs</a>
+        <a class="text-[#000000] font-semibold text-[1rem]">Press kit</a>
+      </div>
+      <div>
+        <h6 class="text-[#000000] font-bold text-[1.5rem] mb-2">Legal</h6>
+        <a class="text-[#000000] font-semibold text-[1rem]">Terms of use</a>
+        <a class="text-[#000000] font-semibold text-[1rem]">Privacy policy</a>
+        <a class="text-[#000000] font-semibold text-[1rem]">Cookie policy</a>
+      </div>
+      <div>
+        <h6 class="text-[#000000] font-bold text-[1.5rem]">Social media</h6>
+        <div class="mt-5">
+          <a href=""
+            ><i class="fa-brands fa-facebook text-[#000000] text-2xl"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-instagram text-[#000000] text-2xl"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-square-linkedin text-[#000000] text-2xl"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-youtube text-[#000000] text-2xl"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <footer class="max-w-screen-2xl mx-auto bg-[#F6E2AB] p-4">
+      <p class="text-center text-[#000000] font-bold text-[1.5rem]">
+        Copyright © Ali Wayde Shagor - All right reserved by ACME Industries Ltd
+      </p>
+    </footer>
+  </body>
+</html>
